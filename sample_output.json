@@ -1,0 +1,102 @@
+{
+  "purchase_orders": [
+    {
+      "po_number": "H006374",
+      "lines": [
+        {
+          "line_number": "29",
+          "release_number": 1,
+          "part_number": "160-1887-1-TUFYH",
+          "original_ordered_qty": 15,
+          "shipped_qty": 15,
+          "remaining_qty": 0,
+          "shipment_date": "2025-04-23",
+          "tracking_number": "k7822274320227929241",
+          "status": "Shipped"
+        },
+        {
+          "line_number": "33",
+          "release_number": 1,
+          "part_number": "182-837FE-TUFYH",
+          "original_ordered_qty": 120,
+          "shipped_qty": 15,
+          "remaining_qty": 105,
+          "shipment_date": "2025-04-23",
+          "tracking_number": "k7822274320227929241",
+          "status": "Partially Shipped"
+        },
+        {
+          "line_number": "33",
+          "release_number": 2,
+          "part_number": "182-837FE-TUFYH",
+          "original_ordered_qty": 120,
+          "shipped_qty": 0,
+          "remaining_qty": 105,
+          "shipment_date": null,
+          "tracking_number": null,
+          "status": "On Order"
+        },
+        {
+          "line_number": "32",
+          "release_number": 1,
+          "part_number": "182-837ME-TUFYH",
+          "original_ordered_qty": 20,
+          "shipped_qty": 4,
+          "remaining_qty": 16,
+          "shipment_date": "2025-04-23",
+          "tracking_number": "k7822274320227929241",
+          "status": "Partially Shipped"
+        },
+        {
+          "line_number": "32",
+          "release_number": 2,
+          "part_number": "182-837ME-TUFYH",
+          "original_ordered_qty": 20,
+          "shipped_qty": 0,
+          "remaining_qty": 16,
+          "shipment_date": null,
+          "tracking_number": null,
+          "status": "On Order"
+        },
+        {
+          "line_number": "25",
+          "release_number": 1,
+          "part_number": "493-13780-1-TUFYH",
+          "original_ordered_qty": 300,
+          "shipped_qty": 10,
+          "remaining_qty": 290,
+          "shipment_date": "2025-04-23",
+          "tracking_number": "k7822274320227929241",
+          "status": "Partially Shipped"
+        },
+        {
+          "line_number": "25",
+          "release_number": 2,
+          "part_number": "493-13780-1-TUFYH",
+          "original_ordered_qty": 300,
+          "shipped_qty": 0,
+          "remaining_qty": 290,
+          "shipment_date": null,
+          "tracking_number": null,
+          "status": "On Order"
+        }
+      ]
+    },
+    {
+      "po_number": "SM322693",
+      "lines": [
+        {
+          "line_number": "19",
+          "release_number": 1,
+          "part_number": "541-2.00DCT-TUFYH",
+          "original_ordered_qty": 55,
+          "shipped_qty": 55,
+          "remaining_qty": 0,
+          "shipment_date": "2025-04-23",
+          "tracking_number": "k7822274320227929241",
+          "status": "Shipped"
+        }
+      ]
+    }
+  ]
+}

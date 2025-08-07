@@ -1,0 +1,21 @@
+Approach Explanation
+
+My approach to this prompt engineering task focuses on creating a clear, structured framework that guides the LLM through the complex process of data extraction, comparison, and transformation while applying specific business rules.
+
+The prompt is designed with several key components:
+
+1. Role Definition: By establishing the LLM as a "supply chain data processing assistant," I set the context for specialized knowledge in this domain.
+
+2. Clear Context and Task Structure: The prompt clearly outlines the context, data structures, business rules, and expected output format. This structured approach helps the LLM understand the full scope of the task before processing begins.
+
+3. Explicit Data Mapping: I've included detailed descriptions of both the shipping report structure and current PO data to help the LLM correctly map between these two data sources.
+
+4. Step-by-Step Processing Instructions: The task is broken down into sequential steps (extract, compare, apply rules, format output) to guide the LLM through the logical flow of data processing.
+
+5. Business Rules Translation: The business rules are explicitly stated and then implicitly reinforced in the output structure, which includes fields for original quantities, shipped quantities, and remaining quantities.
+
+6. Concrete Example: I've included a specific example to illustrate how the business rules should be applied, particularly for the case of multiple shipments and remaining quantities.
+
+7. Structured Output Format: The JSON output structure is clearly defined with all required fields, ensuring the LLM produces consistent, machine-readable results.
+
+This approach balances explicit instruction with enough flexibility for the LLM to handle variations in the input data. The prompt is designed to be robust against different shipping report formats while maintaining consistent output that adheres to the business rules. The structured nature of the prompt also makes it easier to debug and refine if needed.

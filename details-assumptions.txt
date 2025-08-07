@@ -1,0 +1,11 @@
+Assumptions About Excel Structure
+
+1. The Excel shipping report follows a consistent structure with clearly labeled columns.
+2. The PO NUMBER in the shipping report corresponds to the PO numbers in the current PO data, possibly with a prefix (e.g., "KAVI322693" corresponds to "SM322693").
+3. The PART NUMBER in the shipping report directly matches the part numbers in the current PO data.
+4. The PO LINE ITEM in the shipping report corresponds to the Line number in the current PO data.
+5. Each row in the shipping report represents a single shipment for a specific part.
+6. Multiple rows with the same part number indicate multiple shipments of the same item.
+7. The QTY column represents the quantity shipped in that particular shipment.
+8. The DATE column represents the shipment date.
+9. The TRACKING NUMBER uniquely identifies each shipment.
